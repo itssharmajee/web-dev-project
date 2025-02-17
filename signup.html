@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Registration</title>
+    <link rel="stylesheet" href="signin.css">
+    <style>
+        .container{
+            margin: 10px 10px;
+            margin-bottom:30px;
+        }
+        .info{
+            font-size: 12px;
+            padding: 12px 0;
+            line-height: 1.6;
+        }
+        .info span{
+            color: #0066c0;
+        }
+        .instruction{
+            font-size: 14px;
+            font-weight: 400;
+            color: rgb(43, 42, 42);
+        }
+        h6 a{
+            font-size: 12px;
+            text-decoration: none;
+            color: #0066c0;
+            padding: 0 5px;
+        }
+        h6 a:hover{
+            text-decoration: underline;
+            color: #416b8f;
+        }
+    </style>
+</head>
+<body>
+    <a href="/"><img src="./assets/amazon_logo_dark.png" width="100" class="logo" alt=""></a>
+
+    <div class="container">
+        <div class="signin-container">
+            <h1 class="signin-title">Create Account</h1>
+            <h5 class="input-label">Your name</h5>
+            <input type="text" placeholder="First and last name">
+            <h5 class="input-label">Mobile number</h5>
+            <input type="number" placeholder="Mobile number">
+            <h5 class="input-label">Password</h5>
+            <input type="password" placeholder="At least 6 characters" >
+            
+            <p class="info"><img src="./assets/info.png" width="15" alt="">Passwords must be at least 6 characters.</p>
+    
+            <p class="instruction">To verify your number, we will send you a text message with a temporary code. Message and data rates may apply.</p>
+            <button>Verify moble number</button>
+            <hr>
+            <h4>Buying for work?</h4>
+            <p class="sigin-bussiness"><span>Create a free business account</span></p>
+            <hr style="margin: 20px 0 ;">
+            <h6>Already have an account?<a href="signin.html">Sign in</a></h6>
+            <p class="info">By creating an account or logging in, you agree to Amazon's <span>Conditions of Use</span> and <span>Privacy Policy</span>.</p>
+        </div>
+    
+    </div>
+
+    <footer>
+        <ul>
+            <li>Conditions of Use</li>
+            <li>Privacy </li>
+            <li>Notice  Help </li>
+        </ul>
+        <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+</body>
+</html>
